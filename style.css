@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.appointment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.desc {
+    width: 45vw;
+}
+
+.desc button {
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 11vw;
+    height: 5vh;
+    margin-top: 20px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: #0c2461;
+}
+p{
+    margin-top: 20px;
+    color: rgb(100, 100, 100);
+}
+.cont-call{
+    display: flex;
+    background-color: #dbe3f7;
+    width:40vw ;
+    height: 18vh;
+    margin: 25px 0;
+    border-radius: 3px;
+}
+.cont-call a{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cont-call a i{
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 50%;
+    color: #4a69bd;
+    font-size: 1.5rem;
+    background-color: white;
+}
+.cont-call p{
+    padding-top: 15px;
+
+}
+.cont-call h5{
+    padding-top: 7px;
+    font-size: 1rem;
+}
+
+
+
+.form {
+    width: 45vw;
+    background-color: #dbe3f7;
+    height: 100vh;
+    margin-top: 20px;
+}
+.name{
+    margin-top: 20%;
+}
+ input{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 20vw;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+textarea{
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(109, 106, 106);
+    font-size: 1rem;
+
+}
+.form button{
+    width: 41vw;
+    height: 41px;
+    background-color: #4a69bd;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 1rem;
+}
